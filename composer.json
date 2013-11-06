@@ -16,20 +16,21 @@
         }
     ],
     "require": {
-        "symfony/http-kernel": ">=2.2,<2.4-dev",
-        "symfony/dependency-injection": ">=2.2,<2.4-dev",
-        "symfony/templating": ">=2.2,<2.4-dev",
-        "symfony/locale": ">=2.2,<2.4-dev",
+        "symfony/http-kernel": "~2.2",
+        "symfony/dependency-injection": "~2.2",
+        "symfony/templating": "~2.2",
+        "symfony/locale": "~2.2",
         "twig/twig": "*",
         "ext-intl": "*"
     },
     "autoload": {
         "psr-0": { "Sonata\\IntlBundle": "" }
     },
+    "minimum-stability": "dev",
     "target-dir": "Sonata/IntlBundle",
     "extra": {
         "branch-alias": {
-            "dev-master": "2.2.x-dev"
+            "dev-master": "2.4.x-dev"
         }
     }
 }
